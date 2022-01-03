@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>FortniteAES</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>Fortnite.AES</PackageId>
+    <Authors>TS1</Authors>
+    <Product>Fortnite AES Grabber</Product>
+    <Description>Grabs AES keys for Fortnite (The Video Game)</Description>
+    <Copyright>2021</Copyright>
+    <PackageTags>Fortnite AES BenBot</PackageTags>
+    <Version>3.0</Version>
+    <PackageReleaseNotes>Fully rewrote some things using JSON deserialization, added summaries, &amp; removed WriteKeysToFile + WriteOldKeysToFile.</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <FileVersion>3.0.0.0</FileVersion>
+    <PackageProjectUrl>https://github.com/TheSingleOneYT/Fortnite-AES</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TheSingleOneYT/Fortnite-AES</RepositoryUrl>
+  </PropertyGroup>
+	<ItemGroup>
+		<Content Include="ReadMe.txt">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</Content>
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	</ItemGroup>
+</Project>
+
